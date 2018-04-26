@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <!-- Charset para acentuação em português -->
+        <meta content="text/html" charset="iso-8859-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ELEVA INVESTIMENTOS</title>
+        <style type="text/css">
+            BODY {
+                background: #ccc;
+                margin: 0px;
+                padding: 0px;
+            }
+            div.container {
+                min-width: 100%;
+            }
+            IMG.image {
+                border: 1px #777 solid;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <script language="JavaScript">
+            usuario="eleva" 
+            dominio="elevainvestimentos.com.br" 
+            conector="@" 
+
+            function dar_correio(){ 
+                return usuario + conector + dominio 
+            } 
+
+            function escreve_link_correio(){ 
+                document.write("<area shape='rect' coords='596,429,821,447' href='mailto:" + dar_correio() + "' />") 
+            } 
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="images/elevainvestimentos.png" usemap="#eleva" class="image" />
+        </div>
+        <map name="eleva">
+            <area shape="rect" coords="618,43,798,136" alt="Ágora" href="http://www.agorainvest.com.br/index.html" target="_blank" />
+            <area shape="rect" coords="923,30,1034,67" alt="ARX" href="http://www.arxinvestimentos.com.br"  target="_blank" />
+            <area shape="rect" coords="914,70,1029,105" alt="Opportunity" href="http://www.opportunity.com.br"  target="_blank" />
+            <area shape="rect" coords="907,107,1046,140" alt="Ouro Preto" href="http://www.ouropretoinvestimentos.com.br/"  target="_blank" />
+            <area shape="rect" coords="453,528,549,560" alt="ANCORD" href="http://www.ancord.org.br/" 
+             target="_blank" />
+            <area shape="rect" coords="570,520,638,561" alt="CVM" href="http://www.cvm.gov.br/"  target="_blank" />
+            <area shape="rect" coords="651,524,708,562" alt="ANBIMA" href="http://www.anbima.com.br/en_us/institucional/" target="_blank" />
+            <area shape="rect" coords="723,528,812,560" alt="BM&amp;F BOVESPA" href="http://www.bmfbovespa.com.br/en_us/index.htm"  target="_blank" />
+            <area shape="rect" coords="822,529,909,556" alt="BSM" href="http://www.bsm-autorregulacao.com.br/"  target="_blank" />
+            <script>escreve_link_correio()</script>
+        </map>        
+    </body>
+</html>
